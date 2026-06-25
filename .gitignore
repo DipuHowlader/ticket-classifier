@@ -1,0 +1,149 @@
+# ============================================
+# Python
+# ============================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Type checker
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Ruff
+.ruff_cache/
+
+# Pyright
+.pyright/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ============================================
+# Virtual Environment
+# ============================================
+
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================
+# Environment Variables
+# ============================================
+
+.env
+.env.*
+!.env.example
+
+# ============================================
+# IDEs
+# ============================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# ============================================
+# Logs
+# ============================================
+
+*.log
+logs/
+
+# ============================================
+# OS Files
+# ============================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Docker
+# ============================================
+
+# Docker Compose override
+docker-compose.override.yml
+
+# Local Docker environment files
+.docker/
+
+# Ignore Docker volumes
+docker-data/
+volumes/
+
+# ============================================
+# Database
+# ============================================
+
+*.db
+*.sqlite3
+*.sqlite
+
+# ============================================
+# ML / Data Science (Optional)
+# ============================================
+
+artifacts/
+mlruns/
+wandb/
+tensorboard_logs/
+checkpoints/
+models/
+*.h5
+*.keras
+*.ckpt
+
+# ============================================
+# Temporary Files
+# ============================================
+
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
